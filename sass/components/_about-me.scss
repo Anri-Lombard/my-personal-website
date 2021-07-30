@@ -1,0 +1,75 @@
+.about-me {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    padding: 6rem;
+    padding-left: 9rem;
+    font-size: $default-font-size;
+    transform: skewX(-12deg);
+    margin-bottom: 5rem;
+
+    @include respond(tab-portrait) {
+        transform: skewX(0);
+    }
+
+    &__shape {
+        width: 15rem;
+        height: 15rem;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        transform: translateX(-2rem) skewX(12.01deg);
+
+        &--1 {
+            float: left;
+        }
+
+        &--2 {
+            float: right;
+        }
+
+        @include respond(tab-portrait) {
+            transform: skewX(0);
+        }
+    }
+
+    &__img {
+        height: 19rem;
+        width: 15rem;
+        transform: scale(1.4);
+        transition: all 0.5s;
+    }
+
+    &__text {
+        transform: skewX(12deg);
+
+        @include respond(tab-landscape) {
+            transform: skewX(0);
+        }
+    }
+
+    &__caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -0%);
+        color: $color-white;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        text-align: center;
+        opacity: 0;
+        transition: all .5s;
+        backface-visibility: hidden;
+    }
+
+    &:hover &__caption {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover &__img {
+        transform: scale(1);
+        filter: blur(0.5rem) brightness(80%) grayscale(100%);
+    }
+}

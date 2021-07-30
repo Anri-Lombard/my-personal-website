@@ -1,0 +1,64 @@
+// Specific to home page
+.section-interests {
+    background-color: $color-grey-light;
+    padding: 30rem 0 90rem 0;
+
+    @include respond(tab-portrait) {
+        padding: 20rem 5rem 40rem 5rem;
+    }
+}
+
+.section-weekly-builer-brights {
+    background-color: $color-grey-light;
+    padding: 50rem 0 25rem 0;
+    margin-top: -20%;
+}
+
+.section-about-me {
+    position: relative;
+    padding: 15rem 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba($color-grey-light, 0), rgba($color-grey-light, 0)),
+        url(../images/page/Web-space.jpg);
+    background-attachment: fixed;
+
+    @include respond(tab-portrait) {
+        padding: 10rem 5rem 10rem 5rem;
+    }
+}
+
+.section-builds {
+    margin-top: -40%;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top right, rgba($color-primary-light, 0.2), rgba($color-primary-very-dark, 0.4)),
+        url(../images/page/inside-portal.jpeg);
+    background-size: cover;
+    padding: 20rem 0 60rem 0;
+    text-align: center;
+    background-position: center;
+
+    @include respond(tab-landscape) {
+        margin-top: -10%;
+        padding-bottom: 30rem;
+    }
+
+    @include respond(tab-portrait) {
+        padding: 20rem 5rem 40rem 5rem;
+    }
+
+
+
+    // All children items.
+    // &>* {}
+}
+
+.section-blogs {
+    background-color: $color-grey-light;
+    padding: 30rem 0 5rem 0;
+    margin-top: -30%;
+
+    @include respond(tab-portrait) {
+        padding: 30rem 5rem 5rem 5rem;
+    }
+}

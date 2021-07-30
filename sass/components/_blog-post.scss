@@ -1,0 +1,159 @@
+.blog-post {
+
+    // Functionality
+    perspective: 110rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 52rem;
+
+    &__side {
+        transition: all .8s ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
+        width: 100%;
+        border-radius: 0.4rem;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+        height: 52rem;
+        overflow: hidden;
+
+        &--front {
+            background-color: $color-white;
+            border: 1px solid rgba($color-black, 0.2);
+        }
+
+        &--back {
+            transform: rotateY(-180deg);
+
+            &--1 {
+                background-image: linear-gradient(to bottom right, $color-green-light, $color-green-dark);
+            }
+
+            &--2 {
+                background-image: linear-gradient(to bottom right, $color-purple-light, $color-purple-dark);
+            }
+
+            &--3 {
+                background-image: linear-gradient(to bottom right, $color-gold, $color-gold-dark);
+            }
+
+
+        }
+    }
+
+    &:hover &__side--front {
+        transform: rotateY(180deg);
+    }
+
+    &:hover &__side--back {
+        transform: rotateY(0);
+    }
+
+
+    // Front Side Styling
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        width: 100%;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+
+        &--1 {
+            background-image: linear-gradient(to bottom right, $color-green-light, $color-green-dark),
+                url(../images/blogs/ImageSpaceVehicles.jpg);
+        }
+
+        &--2 {
+            background-image: linear-gradient(to bottom right, $color-purple-light, $color-purple-dark),
+                url(../images/blogs/ImageVR.jpg);
+        }
+
+        &--3 {
+            background-image: linear-gradient(to bottom right, $color-gold, $color-gold-dark),
+                url(../images/blogs/AITeacher.jpeg);
+        }
+    }
+
+    &__heading {
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $color-white;
+        position: absolute;
+        text-align: right;
+        top: 12rem;
+        right: 2rem;
+        width: 65%;
+    }
+
+    &__heading-span {
+        padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+
+        &--1 {
+            background-image: linear-gradient(to bottom right, rgba($color-green-light, 0.8), rgba($color-green-dark, 0.8));
+        }
+
+        &--2 {
+            background-image: linear-gradient(to bottom right, rgba($color-purple-light, 0.8), rgba($color-purple-dark, 0.8));
+        }
+
+        &--3 {
+            background-image: linear-gradient(to bottom right, rgba($color-gold, 0.8), rgba($color-gold-dark, 0.8));
+        }
+    }
+
+    &__details {
+        padding: 3rem;
+
+        &--title {
+            color: $color-black;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        ul {
+            list-style: none;
+            width: 90%;
+            color: $color-black;
+            margin: 0 auto;
+
+            li {
+                font-size: 1.5rem;
+                padding: 1rem;
+                text-align: center;
+                padding: 1rem;
+
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid $color-grey-light-medium;
+                    border-width: .3rem;
+                }
+
+
+            }
+        }
+    }
+
+    &__backside-details {
+        padding: 2rem;
+
+        &--title {
+            color: $color-white;
+            text-transform: uppercase;
+        }
+
+        &--paragraph {
+            color: $color-grey-light-medium;
+            background-color: rgba($color-white, 0.1);
+            padding: 0 0.4rem;
+            text-decoration: none;
+        }
+    }
+}
