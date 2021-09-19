@@ -5,7 +5,7 @@
         My Books, Builds, and Blogs for The Curious
       </h2>
       <!-- TODO: -->
-      <h3>Updated 7 July 2021</h3>
+      <h3>Updated 19 September 2021</h3>
     </div>
     <Books />
   </section>
