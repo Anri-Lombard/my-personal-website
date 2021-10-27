@@ -36,7 +36,8 @@
             class="blog-post__side blog-post__side--back blog-post__side--back--1"
           >
             <div class="blog-post__backside-details">
-              <h2 class="tertiary-heading blog-post__backside-details--title">
+              <img src="../assets/images/blogs/RobotTeacher.png" alt="Robot teacher research" width="350">
+              <!-- <h2 class="tertiary-heading blog-post__backside-details--title">
                 Technologies
               </h2>
               <p class="blog-post__backside-details--paragraph">
@@ -75,7 +76,7 @@
                 >
                   (It seems to blow up for now though)</a
                 ><br />
-              </p>
+              </p> -->
             </div>
           </div>
         </div>

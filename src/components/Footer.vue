@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer u-center-text">
+  <footer id="bottom" class="footer u-center-text">
     <div class="row">
       <div class="col-1-of-2">
         <div class="footer__navigation">

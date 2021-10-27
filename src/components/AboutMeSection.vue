@@ -3,7 +3,7 @@
     <div class="u-center-text u-margin-bottom-large">
       <h2 class="heading-underline--white">About me</h2>
       <p style="color: white; font-weight: 600" class="u-center-text">
-        (Proud Physicist Programming with Principles)
+        (Probably a math guy)
       </p>
     </div>
     <div class="row">
@@ -23,12 +23,17 @@
             Hey builder,
           </h3>
           <p style="font-size: 1.9rem; color: #423F3E; font-family: serif;">
-            I'm Anri. <br />
-            Born and raised in Namibia, but now studying in South Africa. My childhood 
+            
+            Anri here, I write research, solve math and statistic problems, and kick ass alongside Hermione (Ron wrote that). <br /> <br />
+            My interests are solving problems in global warming, virtual education, and space colonisation;
+            after my advanced wand-waiving degree. <br /> <br />
+            I'm synonomous with books and studying (sorry girls, not rugby), and intrigued by all 4 people I met 
+            this year; we'll connect easily if you know who Dobby is.
+            <!-- Born and raised in Namibia, but now studying in South Africa. My childhood 
             was not filled with technology and programming, it was filled with people. 
             Caring, smart, hard-working people.<br /><br />
             Growing up to see them use their lives to do whatever gets them through the week 
-            left a scar deep in my heart.
+            left a scar deep in my heart. -->
             <!-- I'm an 19 year old building projects full time in South Africa and
             have a ton of fun studying at the university of Cape Town on the
             side!<br /><br />I've been programming since I was 16, but my real
@@ -51,19 +56,12 @@
         </figure>
         <div class="about-me__text">
           <p style="font-size: 1.9rem; color: #423F3E; font-family: serif;">
-            They stopped dead learning the language of the future since their chances
-            of excelling are slim. "There are Americans in Harvard doing those things."
-            <br /><br />
-            Yes, there are. This year almost led me to that same excuse. I am 
-            without parents, without teachers, and all I have is this computer.
-            By most likely failing physics after working harder than any student
-            I know, one thing keeps popping back up.<br /><br />
-            All I have is this computer.<br /><br />
-            A Harvard student is a student. I am a student. The only goal before 
-            I die is to make sure each of those people see the rewards they deserve, 
-            stave off the false belief, and see technology not as punishing 
-            but a means to expression, transformation, and power to any who 
-            dares to love it.
+            I'm inspired by the perseverant and curios that change the world; I'm obnoxious to anyone who 
+            watches television, and have a problem with Netflix bingers, unless it is Harry Potter. <br /> <br />
+            I'm addicted to smiles, hugs and handshakes, and give them out mostly to mathematicians, 
+            statiticians, novelists, engineers, and all wizards (Ok, most wizards). <br /> <br />
+            You could follow me on <a href="#bottom">Twitter</a>, where I'll post my research and wizardry
+            projects.
           </p>
         </div>
       </div>

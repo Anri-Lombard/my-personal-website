@@ -26,7 +26,7 @@ import BuilderBrightsSection from "./components/BuilderBrightsSection.vue";
 import AboutMeSection from "./components/AboutMeSection.vue";
 import BooksSection from "./components/BooksSection.vue";
 import BuildsSection from "./components/BuildsSection.vue";
-import BlogsSection from "./components/BlogsSection.vue";
+// import BlogsSection from "./components/BlogsSection.vue";
 import Footer from "./components/Footer.vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
@@ -40,7 +40,7 @@ export default {
     AboutMeSection,
     BooksSection,
     BuildsSection,
-    BlogsSection,
+    // BlogsSection,
     Footer,
     Typing,
   },

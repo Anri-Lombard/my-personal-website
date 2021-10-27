@@ -36,17 +36,19 @@ export default {
   // TODO:
   methods: {
     updateQuote() {
-      if (this.month === 3) {
+      if (this.month === 9) {
+        return "If I could do stats in code I won't be writing quotes";
+      } else if (this.month === 10) {
         return "The only stupid question is the one unasked";
-      } else if (this.month === 5) {
+      } else if (this.month === 11) {
         return "Be nice to nerds. Chances are you'll end up working for one.";
-      } else if (this.month === 4) {
+      } else if (this.month === 12) {
         return "Put your hand on a hot stove for a minute, and it seems like an hour. Sit with a pretty girl for an hour, and it seems like a minute. That’s relativity.";
-      } else if (this.month === 6) {
+      } else if (this.month === 1) {
         return "The only normal people are the ones that you don’t know very well.";
-      } else if (this.month === 7) {
+      } else if (this.month === 2) {
         return "A smile is an inexpensive way to improve your looks.";
-      } else if (this.month === 8) {
+      } else if (this.month === 3) {
         return "If you want to leave footprints in the sands of time, don’t drag your feet.";
       }
     },
