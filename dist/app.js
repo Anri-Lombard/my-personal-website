@@ -1,3 +1,5 @@
+import VueMeta from 'vue-meta'
+
 Vue.createApp({
     data() {
         return {
@@ -58,7 +60,7 @@ Vue.createApp({
             this.seeOldies = !this.seeOldies;
         }
     }
-}).mount('#website');
+}).use(VueMeta).mount('#website');
 
 // future quotes
 // "Those who believe they can change the world are those who do"
