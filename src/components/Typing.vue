@@ -18,15 +18,12 @@ export default {
         typeArray: 
             [
                 'The only way to type this fast is with css', 
-                'How many tickles does it take to make an octupus laugh? Ten-tickles',
+                'How many tickles does it take to make an octopus laugh? Ten-tickles',
                 'What\'s the best thing about Switzerland? Don\'t know, but their flag is a big plus',
                 "All mathematicians are afraid of negative numbers. They'll stop at nothing to avoid them",
                 "Why do we tell actors to “break a leg?” Because every play has a cast.",
                 "Did you hear about the claustrophobic astronaut? He just needed a little space.",
                 "Guess you figured I like jokes by now",
-                "I also like vaccines",
-                "And people",
-                "Goodness I miss people!"
             ],
         typingSpeed: 30,
         erasingSpeed: 30,
