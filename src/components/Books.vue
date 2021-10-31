@@ -23,8 +23,8 @@
             What I am reading now
           </h3>
           <p class="paragraph section-books--first-paragraph">
-            - <strong>Digital Minimalism</strong>
-            <em>by Cal Newport</em>
+            - <strong>Think Again</strong>
+            <em> by Adam Grant</em>
           </p>
 
           <h3

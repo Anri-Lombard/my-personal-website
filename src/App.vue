@@ -34,6 +34,33 @@ import Typing from "./components/Typing.vue";
 
 export default {
   name: "App",
+  metaInfo() {
+    return {
+      title: "Anri Lombard's Personal Website",
+      meta: [
+        {
+          name: 'description', 
+          content: 'Anri\'s website shows books, build, and blogs he has come accross, and aims to inspire builders to make wizardry real'
+        },
+        {
+          property: 'og:title',
+          content: 'Anri Lombard\'s Personal Website'
+        },
+        {
+          property: 'og:site_name',
+          content: 'Anri Lomabard'
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          name: 'robots',
+          content: 'index,follow'
+        }
+      ]
+    }
+  },
   components: {
     Heading,
     BuilderBrightsSection,
